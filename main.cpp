@@ -35,8 +35,6 @@ int main() {
     std::cout << "---------------------------------------" << std::endl;
 
     // 4. Exportar dados para análise externa (Python)
-    // No seu último código, ExportTelemetry estava fora da classe, direto no namespace.
-    // Se der erro aqui, verifique se você moveu ela para dentro da classe ou não.
     ExportTelemetry(myLander, currentSpeed, "telemetry_suicide_burn.csv");
 
     return 0;
