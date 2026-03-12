@@ -4,7 +4,7 @@
 #include <fstream>
 #include <iostream>
 
-namespace KSPPhysics { // Namespace consistente com sua main
+namespace KSPPhysics { 
     
     // Constantes organizadas
     namespace Constants {
@@ -20,7 +20,7 @@ namespace KSPPhysics { // Namespace consistente com sua main
         double massDry;   // kg
         double maxThrust; // Newtons
         double isp;       // Segundos
-        double height;    // m (opcional, mas estava na sua struct)
+        double height;    // m (opcional)
     };
 
     class ManeuverSolver {
